@@ -1,12 +1,13 @@
-import Animated, {
+import {
     useAnimatedStyle,
-    interpolate
+    interpolate,
+    SharedValue
 } from 'react-native-reanimated';
 import type { SectionDimensions } from '../types/SectionListTypes';
 
 interface AnimatedHeaderConfig {
-    scrollY: Animated.SharedValue<number>;
-    currentSection: Animated.SharedValue<string>;
+    scrollY: SharedValue<number>;
+    currentSection: SharedValue<string>;
     dimensions: SectionDimensions;
     animationConfig?: {
         duration?: number;
