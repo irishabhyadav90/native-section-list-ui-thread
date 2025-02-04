@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 import { render } from '@testing-library/react-native';
-import { SectionHeader } from '../../components/SectionHeader';
+import { SectionHeader } from '../../app/components/SectionHeader';
 
 describe('SectionHeader', () => {
     const mockTitle = 'Test Section';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 import { render } from '@testing-library/react-native';
-import { SectionListItem } from '../../components/SectionListItem';
+import { SectionListItem } from '../../app/components/SectionListItem';
 
 describe('SectionListItem', () => {
     const mockItem = 'Test Item';
