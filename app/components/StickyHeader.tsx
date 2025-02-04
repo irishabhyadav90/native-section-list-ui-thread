@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import Animated from 'react-native-reanimated';
+import Animated, { SharedValue } from 'react-native-reanimated';
 
 interface StickyHeaderProps {
     headerStyle: any;
-    currentSection: Animated.SharedValue<string>;
+    currentSection: SharedValue<string>;
     renderStickyHeader?: (title: string) => React.ReactElement;
 }
 
