@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import type { Section, SectionDimensions } from '../types/SectionListTypes';
+import type { Section, SectionDimensions } from '@types/SectionListTypes';
 
 const DEFAULT_DIMENSIONS: SectionDimensions = {
     headerHeight: 40,

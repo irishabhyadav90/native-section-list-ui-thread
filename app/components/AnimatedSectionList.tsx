@@ -9,12 +9,12 @@ import Animated, {
 } from 'react-native-reanimated';
 import { SectionList } from 'react-native';
 
-import { useSectionCalculations } from '../hooks/useSectionCalculations';
-import { useAnimatedHeader } from '../hooks/useAnimatedHeader';
+import { useSectionCalculations } from '@hooks/useSectionCalculations';
+import { useAnimatedHeader } from '@hooks/useAnimatedHeader';
+import type { SectionListProps } from '@types/SectionListTypes';
 import { SectionListItem } from './SectionListItem';
 import { SectionHeader } from './SectionHeader';
 import { StickyHeader } from './StickyHeader';
-import type { SectionListProps } from '../types/SectionListTypes';
 
 const AnimatedSectionList = Animated.createAnimatedComponent(SectionList);
 
