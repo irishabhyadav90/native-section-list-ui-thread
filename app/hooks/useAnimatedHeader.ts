@@ -3,7 +3,7 @@ import {
     interpolate,
     SharedValue
 } from 'react-native-reanimated';
-import type { SectionDimensions } from '../types/SectionListTypes';
+import type { SectionDimensions } from '@types/SectionListTypes';
 
 interface AnimatedHeaderConfig {
     scrollY: SharedValue<number>;

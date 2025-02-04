@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { EnhancedSectionList } from './app/components/AnimatedSectionList';
+import { EnhancedSectionList } from '@components/AnimatedSectionList';
 import sections from './app/constant/section';
 
 const App = () => {
